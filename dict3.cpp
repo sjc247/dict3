@@ -129,20 +129,7 @@ WORD GetNextWord(void){
 			else if (inword) return w;
 		}
 			return w;
-		/*
-			char ch;
-			WORD tmp;
-			while( cin.good() ){
-			ch = cin.get();
-			if(ch == ' ') return tmp;
-			if ( isalpha(ch) ) {
-			// function test is ch is A-Z or a-z, then concats the chars onto word
-			tmp.push_back(ch);
-			}
-			else break;
-			}
-			return tmp;
-			*/
+
 				
 				}
 
